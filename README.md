@@ -38,7 +38,7 @@ Whenever we find that subset that has the sum value of our sum, the program retu
 
 ## Analysis of Algorithms 
 
-#### Best Case = O(1) 
+#### Best Case = O(n^2) (Insertion Sort)
 
 #### Average Case = O(n^2) 
 
