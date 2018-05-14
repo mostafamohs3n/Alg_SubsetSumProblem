@@ -50,7 +50,8 @@ int hasSubset(int set[], int n, int sum){
     }
     //numOfArr is the size of the new subset
     /** Case 1 **/
-    // Best = Avg = Worst = O(n)
+    // Best = O(1)
+    // Avg = Worst = O(n)
     int sumSubset=0;
     for(i=0;i<numOfArr && sumSubset <= sum;i++){
         sumSubset += subset[i];
