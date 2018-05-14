@@ -1,4 +1,4 @@
-# Alg_SubsetSumProblem
+# Algorithms Subset Sum Problem
 
  
 
