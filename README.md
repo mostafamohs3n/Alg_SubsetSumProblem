@@ -4,7 +4,7 @@
 
  
 
-# Algorithm Approach 
+## Algorithm Approach 
 
 We knew that directly using power sets wasn't the best option, as it will take O(2^n) which is too inefficient for mentioned problem. 
 
@@ -14,19 +14,19 @@ Next, we have divided the problems into sub problems, four to be exact.
 
 We have called them Cases; each case serves a specific role in the whole algorithm 
 
-# Case 0 
+### Case 0 
 
 Is that we go over the set and see if any of the inputs EQUALS the sum. 
 
-# Case 1 
+### Case 1 
 
 We add all the numbers of the inputted set together and see if this equals the sum. 
 
-# Case 2 
+### Case 2 
 
 We will select one element and sum each element linearly to the right with that element and do the check until we reach the right. For all N numbers of the subset we created earlier. 
 
-# Case 3 
+### Case 3 
 
 We will select one element, skip it's next one, and linearly add all the elements to the right, while making pairs of them with the selected element and the current element we are adding. And if the selected element is at position at least 2 (counting position 0) we will go backwards at the same time we are checking for the next elements to the right 
 
@@ -36,10 +36,10 @@ Whenever we find that subset that has the sum value of our sum, the program retu
 
  
 
-# Analysis of Algorithms 
+## Analysis of Algorithms 
 
-Best Case = O(1) 
+#### Best Case = O(1) 
 
-Average Case = O(n^2) 
+#### Average Case = O(n^2) 
 
-Worst Case = O(n^2) 
+#### Worst Case = O(n^2) 
